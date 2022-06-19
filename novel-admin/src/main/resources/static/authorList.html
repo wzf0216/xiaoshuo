@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+<head>
+    <meta charset="UTF-8">
+    <title>作者列表</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi"/>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./lib/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <script src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/axios.js"></script>
+    <script type="text/javascript" src="./js/vue.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+<body>
+<div class="x-nav">
+          <span class="layui-breadcrumb">
+            <a href="">首页</a>
+            <a href="">演示</a>
+            <a>
+              <cite>导航元素</cite></a>
+          </span>
+    <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right"
+       onclick="location.reload()" title="刷新">
+        <i class="layui-icon layui-icon-refresh" style="line-height:30px"></i></a>
+</div>
+<div class="layui-fluid" id="app">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body ">
+                    <form class="layui-form layui-col-space5">
+<!--                        <div class="layui-inline layui-show-xs-block">-->
+<!--                            <input class="layui-input" autocomplete="off" placeholder="开始日" name="start" id="start">-->
+<!--                        </div>-->
+<!--                        <div class="layui-inline layui-show-xs-block">-->
+<!--                            <input class="layui-input" autocomplete="off" placeholder="截止日" name="end" id="end">-->
+<!--                        </div>-->
+                        <div class="layui-col-md1">
+                            <input type="text" v-model="penName" required lay-verify="required" placeholder="笔名"
+                                   class="layui-input" autocomplete="off"/>
+                        </div>
+                        <div class="layui-col-md1">
+                            <button id="btn2" class="layui-btn" @click.prevent="search()">搜索</button>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="layui-card-header">
+                    <button class="layui-btn layui-btn-danger" @click.prevent="delAll()"><i class="layui-icon"></i>批量删除
+                    </button>
+                </div>
+                <div class="layui-card-body layui-table-body layui-table-main" >
+                    <table class="layui-table layui-form">
+                        <thead>
+                        <tr>
+                            <th>
+                                <input type="checkbox" lay-filter="checkall" name="" lay-skin="primary"
+                                       @onclick="watchVale()">
+                            </th>
+                            <th>ID</th>
+                            <th>邀请码</th>
+                            <th>笔名</th>
+                            <th>手机</th>
+                            <th>QQ或者微信</th>
+                            <th>电子邮箱</th>
+                            <th>作品方向，0：男频，1：女频</th>
+                            <th>入驻时间</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr v-for="item in this.list">
+                            <td>
+                                <input type="checkbox" class="check" name="Fruit" lay-skin="primary"
+                                       v-bind:value="item.id" onclick="watchVale()">
+                            </td>
+                            <td class="id">{{item.id}}</td>
+                            <td class="inviteCode">{{item.inviteCode}}</td>
+                            <td class="penName">{{item.penName}}</td>
+                            <td class="telPhone">{{item.telPhone}}</td>
+                            <td class="chatAccount">{{item.chatAccount}}</td>
+                            <td class="email">{{item.email}}</td>
+                            <td class="workDirection">{{item.workDirection}}</td>
+                            <td>{{item.createTime}}</td>
+                            <td>{{item.status}}</td>
+                            <td class="td-manage">
+                                <div>
+                                  <span>
+                                     <button class="layui-btn"  @click.prevent="upd(item.id)" onclick="xadmin.open('修改','./authorEdit.html',600,400)">
+                                        修改
+                                    </button>
+                                    <button class="layui-btn layui-btn-danger" @click.prevent="del(item.id)">删除</button>
+                               </span>
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="pages">
+                        <div class="pages">
+                            <span>'共<b>{{this.total}}</b>条</span>
+                            <a class="preBtn" @click="movePage(prePage)">上一页</a>
+                            <span v-for="num in this.pages"><a @click="movePage(num)" class="pageNum">{{num}}</a></span>
+                            <a class="nextBtn" @click="movePage(nextPage)">下一页</a>
+                            <span>'共<b>{{this.pages}}</b>页</span>
+                            <span>到第<input  v-model="this.number" type="number" class="pageInput" value="1"/>页</span>
+                            <span class="changePage" @click="movePage(this.number)">确定</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            penName: '',
+            list: [],
+            pages: '',
+            number:'',
+            total: '',
+            nextPage: '',
+            prePage: '',
+            pageSize: ''
+
+        },
+        created: function () {
+            axios.get("/author/list?pageNum=" + 1 + "&&pageSize=" + 5)
+                .then(function (response) {
+                    if (response.code = 200) {
+                        app.list=[]
+                        app.pages = response.data.data.pages
+                        app.nextPage = response.data.data.nextPage
+                        app.prePage = response.data.data.prePage
+                        app.list = response.data.data.list
+                        app.pages = response.data.data.pages
+                        app.total=response.data.data.total
+                    } else {
+                        alert(response.message)
+                    }
+                })
+        },
+        methods: {
+            movePage: function (pageNum) {
+                //alert("pageNUm" + pageNum)
+                axios.get("/author/list?pageNum=" + pageNum + "&&pageSize=" + 5)
+                    .then(function (response) {
+                        if (response.code = 200) {
+                            app.list=[]
+                            app.pages = response.data.data.pages
+                            app.nextPage = response.data.data.nextPage
+                            app.prePage = response.data.data.prePage
+                            app.list = response.data.data.list
+                            app.pages = response.data.data.pages
+                            app.total=response.data.data.total
+                        } else {
+                            alert(response.message)
+                        }
+                    })
+            },
+            del: function (id) {
+                alert("确定删除" + id + "?")
+                axios.post("/author/remove?id=" + id)
+                    .then(function (response) {
+                        alert(response.message)
+                        location.reload()
+                    })
+            },
+
+            delAll: function () {
+                var rows = [];
+                var items = document.getElementsByName("Fruit");
+                //定义Vue中的list对象
+                var ids = new Array();
+                //复选框的长度
+                var checkboxsize = items.length;
+                //定义标志位
+                var count = 0;
+                //进行遍历
+                for (var i = 0; i < items.length; i++) {
+                    //判断多选框是否选中
+                    if (items[i].checked) {
+                        count++;
+                        //获取复选框的id值
+                        var vale = $("input[name='Fruit']")[i].value
+                        //添加进vm对象的集合中
+                        ids.push(vale)
+
+                    }
+                }
+
+                if (ids.length == 0) {
+                    layer.msg("请选择要删除的数据");
+                    return;
+                }
+                alert(ids)
+                layer.confirm("确认要删除选中的'" + ids.length + "'条数据吗?", {
+                    btn: ['确定', '取消']
+                    // 按钮
+                }, function () {
+                    $.ajax({
+                        type: 'POST',
+                        data: {
+                            "ids": ids
+                        },
+                        url: 'author/batchRemove',
+                        success: function (r) {
+                            if (r.code == 200) {
+                                layer.msg(r.msg);
+                                reLoad();
+                            } else {
+                                layer.msg(r.msg);
+                            }
+                        }
+                    });
+                }, function () {
+
+                });
+            },
+
+            upd(updateId) {
+                sessionStorage.setItem("authorId", updateId)
+                // alert(sessionStorage.getItem("authorId"))
+                // window.location.href = "./authorEdit.html"
+            },
+            search() {
+
+                axios.get("/author/search?penname=" + this.penName+"&&pageNum="+1+"&&pageSize="+5)
+                .then(function (response) {
+                    if (response.data.code==200){
+                        app.list=[]
+                        app.pages = response.data.data.pages
+                        app.nextPage = response.data.data.nextPage
+                        app.prePage = response.data.data.prePage
+                        app.list = response.data.data.list
+                        app.pages = response.data.data.pages
+                        app.total=response.data.data.total
+                        alert("成功")
+                    }else {
+                        alert("失败")
+                    }
+
+                })
+
+            },
+        },
+
+    });
+</script>
+<!--<script type="text/javascript" src="./js/author.js"></script>-->
+</body>
+<script>
+    layui.use(['laydate', 'form'], function () {
+        var laydate = layui.laydate;
+        var form = layui.form;
+
+
+        // 监听全选
+        form.on('checkbox(checkall)', function (data) {
+
+            if (data.elem.checked) {
+                $('tbody input').prop('checked', true);
+            } else {
+                $('tbody input').prop('checked', false);
+            }
+            form.render('checkbox');
+        });
+
+
+
+
+    });
+
+
+</script>
+</html>

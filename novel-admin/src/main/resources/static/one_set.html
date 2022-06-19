@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        个人信息
+    </title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./css/index.css" media="all">
+    <link rel="stylesheet" href="./css/font.css">
+    <script type="text/javascript" src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/axios.js"></script>
+    <script type="text/javascript" src="./js/vue.js"></script>
+    <style>
+        .imgs{display: none;}
+        input[type="file"]{
+            width: 50px;
+            height:50px;
+            border-radius: 100%;
+            opacity:0;
+            cursor:pointer;
+            border: 1px solid red;
+            position: absolute;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="x-body"  id="app">
+    <form class="layui-form layui-form-pane" action="" id="add">
+        <blockquote class="layui-elem-quote">
+            <input type="hidden" name="id" value="8">
+            <div >
+                <input class="layui-upload " type="file" accept="undefined" id="previewImg" name="images"  onchange="upload(this,8)">
+                <img src="./images/tp.jpg" class="layui-circle" style="width:50px;height:50px;float:left" id="pimages" name="pimages"   alt="个人头像" >
+                <input id="avatar"   name="image" required="" type="hidden" value="./images/tx.jpg" >
+                <dl style="margin-left:80px; color:#019688">
+                    <dt><span >xiyuan</span> <span ></span></dt>
+                    <dd style="margin-left:0">这家伙很懒，什么也没有留下</dd>
+                </dl>
+            </div>
+        </blockquote>
+
+        <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+
+
+            <div class="layui-tab-content" >
+                <div class="layui-tab-item layui-show">
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">
+                            <span class='x-red'>*</span>用户名
+                        </label>
+                        <div class="layui-input-block">
+                            <input v-model="sysuser.username" type="text" name="name" autocomplete="off" placeholder="空制在80个汉字，160个字符以内"
+                                   class="layui-input" value="xiyuan">
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">
+                            <span class='x-red'>*</span>原密码
+                        </label>
+                        <div class="layui-input-block">
+                            <input v-model="oldpass" type="text" name="oldpass"  autocomplete="off" placeholder=""
+                                   class="layui-input" value="15325644722">
+                        </div>
+                    </div>
+
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">
+                            <span class='x-red'>*</span>新密码
+                        </label>
+                        <div class="layui-input-block">
+                            <input v-model="newpass1" type="password" name="newpassword1" value="" autocomplete="off" placeholder=""
+                                   class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">
+                            <span class='x-red'>*</span>新密码验证
+                        </label>
+                        <div class="layui-input-block">
+                            <input v-model="newpass2" type="password" name="newpassword2" value="" autocomplete="off" placeholder="新密码为空则不修改"
+                                   class="layui-input">
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" @click="upd()">修改</button>
+                        </div>
+                    </div>
+                    <!--</form>-->
+                    <div style="height:100px;"></div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </form>
+</div>
+<script src="lib/layui/layui.js" charset="utf-8"></script>
+<script src="js/x-layui.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: '#app',
+        data: {
+            oldpass:'',
+            newpass1:'',
+            newpass2:'',
+    sysuser: {
+
+            }
+        },
+        created: function () {
+            axios.get("/sysUser/detail?id=" + sessionStorage.getItem("sysuserid"))
+                .then(function (response) {
+                    alert(response.data)
+                    if (response.data.code == 200) {
+
+                        app.sysuser = response.data.data;
+                        alert(response.data.message)
+                    }
+                    if (response.data.code == 500) {
+                        alert("查找失败")
+                    }
+
+
+                }).catch(function (err) {
+                alert(err)
+            })
+            //发出查询所有员工的请求
+
+        },
+        methods: {
+            upd: function () {
+                var ps1=this.newpass1;
+                var ps2=this.newpass2;
+                if (this.oldpass!=sessionStorage.getItem("pwd")){
+                    alert("原密码输入错误，请重新输入")
+                }else {
+                    if(ps1!=ps2||ps1==" "||ps2==" "){
+                        alert("新密码不相等或者新密码为空")
+                    }else {
+                        app.sysuser.password=ps2;
+                        axios.post("/sysUser/update", app.sysuser).then(function (response) {
+                            //  alert(response.data.code);
+                            if (response.data.code == 200) {
+                                alert("修改成功")
+                            }
+                            if (response.data.code == 500) {
+                                alert('修改失败')
+                            }
+                        })
+                    }
+                }
+
+
+
+            }
+        }
+    })
+</script>
+
+
+</body>
+</html>

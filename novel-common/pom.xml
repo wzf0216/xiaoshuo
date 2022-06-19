@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.novel</groupId>
+        <artifactId>novel_plus</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <groupId>com.novel.common</groupId>
+    <artifactId>novel-common</artifactId>
+    <version>1.0.0</version>
+    <name>novel-common</name>
+    <description>小说网站通用模板</description>
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <!--sping缓存接口-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
+        <!--        java进程内缓存框架-->
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+        </dependency>
+
+        <!--mysql驱动-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+
+        <!--分页助手启动器-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cuisongliu</groupId>
+            <artifactId>orderbyhelper-spring-boot-starter</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <!--httpclient支持HTTP协议的客户端编程工具包-->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+            <exclusions>
+                <exclusion>
+<!--                    系统日志-->
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+<!--mybatis动态sql-->
+        <dependency>
+            <groupId>org.mybatis.dynamic-sql</groupId>
+            <artifactId>mybatis-dynamic-sql</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+
+        <!-- MyBatis 生成器 -->
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+            <version>1.4.0</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

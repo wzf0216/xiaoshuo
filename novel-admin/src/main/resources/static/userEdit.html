@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+<head>
+    <meta charset="UTF-8">
+    <title>会员编辑</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/axios.js"></script>
+    <script type="text/javascript" src="./js/vue.js"></script>
+</head>
+
+<body>
+<div class="layui-fluid">
+    <div class="layui-row" id="app">
+        <form class="layui-form">
+            <div class="layui-form-item">
+                <label for="id" class="layui-form-label">
+                    <span class="x-red">*</span>主键</label>
+                <div class="layui-input-inline">
+                    <input v-model="user.id" type="text" id="id" name="id" required="" lay-verify="required" autocomplete="off" class="layui-input" readonly="readonly"></div>
+                <div class="layui-form-mid layui-word-aux">
+                    <span class="x-red">*</span></div></div>
+            <div class="layui-form-item">
+                <label for="username" class="layui-form-label">
+                    <span class="x-red">*</span>登录名</label>
+                <div class="layui-input-inline">
+                    <input v-model="user.username" type="text" id="username" name="username" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="nickName" class="layui-form-label">
+                    <span class="x-red">*</span>昵称</label>
+                <div class="layui-input-inline">
+                    <input v-model="user.nickName" type="text" id="nickName" name="nickName" required="" lay-verify="nikename" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="password" class="layui-form-label">
+                    <span class="x-red">*</span>密码</label>
+                <div class="layui-input-inline">
+                    <input v-model="user.password" type="text" id="password" name="password" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+                <div class="layui-form-mid layui-word-aux">6到16个字符</div></div>
+            <div class="layui-form-item">
+                <label for="sex" class="layui-form-label">
+                    <span class="x-red">*</span>性别</label>
+                <div class="layui-input-inline">
+                    <input v-model="user.userSex" type="text" id="sex" name="sex" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="balance" class="layui-form-label">
+                    <span class="x-red">*</span>余额</label>
+                <div class="layui-input-inline">
+                    <input v-model="user.accountBalance" type="text" id="balance" name="balance" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="status" class="layui-form-label">
+                    <span class="x-red">*</span>状态</label>
+                <div class="layui-input-inline">
+                    <input v-model="user.status" type="text" id="status" name="status" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" @click="upd()">修改</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    const app = new Vue({
+        el: '#app',
+        data: {
+            user: {
+
+            }
+
+
+        },
+        created: function () {
+            axios.get("/user/detail?id=" + sessionStorage.getItem("user"))
+                .then(function (response) {
+                    alert(response.data.data)
+                    if (response.data.code == 200) {
+
+                        app.user= response.data.data;
+
+
+                    }
+                    if (response.data.code == 500) {
+                        alert("查找失败")
+                    }
+
+
+                }).catch(function (err) {
+                alert(err)
+            })
+            //发出查询所有员工的请求
+
+        },
+        methods: {
+            upd: function () {
+
+                //alert(data);
+                axios.post("/user/update", app.user).then(function (response) {
+                    //  alert(response.data.code);
+                    if (response.data.code == 200) {
+                        alert("修改成功")
+                    }
+                    if (response.data.code == 500) {
+                        alert('修改失败')
+                    }
+                })
+            }
+        }
+    })
+</script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+<head>
+    <meta charset="UTF-8">
+    <title>小说编辑</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi"/>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/axios.js"></script>
+    <script type="text/javascript" src="./js/vue.js"></script>
+</head>
+
+<body>
+<div class="layui-fluid">
+    <div class="layui-row" id="app">
+        <form class="layui-form">
+            <div class="layui-form-item">
+                <label for="ID" class="layui-form-label">
+                    <span class="x-red">*</span>用户ID</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.id" type="text" id="ID" name="ID" required="" lay-verify="required" autocomplete="off"
+                           class="layui-input" readOnly="readonly"></div>
+                <div class="layui-form-mid layui-word-aux">
+                    <span class="x-red">*</span>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label for="boookName" class="layui-form-label">
+                    <span class="x-red">*</span>小说名</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.bookName" type="text" id="boookName" name="boookName" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="Name" class="layui-form-label">
+                    <span class="x-red">*</span>分类名</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.catName" type="text" id="Name" name="catName" required="" lay-verify="required" autocomplete="off"
+                           class="layui-input"></div>
+                <div class="layui-form-mid layui-word-aux">6到16个字符</div>
+            </div>
+            <div class="layui-form-item">
+                <label for="authorName" class="layui-form-label">
+                    <span class="x-red">*</span>作者名</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.authorName" type="text" id="authorName" name="authorName" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input"></div>
+            </div>
+
+            <div class="layui-form-item">
+                <label for="status" class="layui-form-label">
+                    <span class="x-red">*</span>状态</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.status" type="text" id="status" name="status" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="visitCount" class="layui-form-label">
+                    <span class="x-red">*</span>点击量</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.visitCount" type="text" id="visitCount" name="visitCount" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="comment" class="layui-form-label">
+                    <span class="x-red">*</span>入驻时间</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.commentCount" type="text" id="comment" name="commentCount" required="" lay-verify="date"
+                           autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="isVip" class="layui-form-label">
+                    <span class="x-red">*</span>是否收费</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.isVip" type="text" id="isVip" name="isVip" required="" lay-verify="date"
+                           autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="isVip" class="layui-form-label">
+                    <span class="x-red">*</span>最新章节</label>
+                <div class="layui-input-inline">
+                    <input v-model="book.lastIndexName" type="text" id="isVip" name="lastIndexName" required="" lay-verify="date"
+                           autocomplete="off" class="layui-input"></div>
+            </div>
+
+
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" @click="upd()">修改</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    const app = new Vue({
+        el: '#app',
+        data: {
+            book: {
+
+            }
+
+
+        },
+        created: function () {
+            axios.get("/book/detail?id=" + sessionStorage.getItem("book"))
+                .then(function (response) {
+                    alert(response.data.data)
+                    if (response.data.code == 200) {
+
+                        app.book = response.data.data;
+
+                        alert(response.data.message)
+                    }
+                    if (response.data.code == 500) {
+                        alert("查找失败")
+                    }
+
+
+                }).catch(function (err) {
+                alert(err)
+            })
+            //发出查询所有员工的请求
+
+        },
+        methods: {
+            upd: function () {
+
+                //alert(data);
+                axios.post("/book/update", app.book).then(function (response) {
+                    //  alert(response.data.code);
+                    if (response.data.code == 200) {
+                        alert("修改成功")
+                    }
+                    if (response.data.code == 500) {
+                        alert('修改失败')
+                    }
+                })
+            }
+        }
+    })
+</script>
+</body>
+
+</html>

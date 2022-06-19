@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/novel?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: wzf316159
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 8081
+mybatis:
+  configuration:
+    #自动将数据库带下划线的表字段值映射到Java类的驼峰字段上
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath*:mybatis/mapping/*.xml
+  type-aliases-package: com.novel.entity
+jackson:
+  generator:
+    write-numbers-as-strings: true
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql

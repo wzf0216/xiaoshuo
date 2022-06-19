@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    include: [common]
+  datasource:
+    url: jdbc:mysql://localhost:3306/novel?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: wzf316159
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8080
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+pic:
+  save:
+    type: 2 #图片保存方式, 1不保存，使用网络图片 ，2本地保存
+    path: /var/pic  #图片保存路径

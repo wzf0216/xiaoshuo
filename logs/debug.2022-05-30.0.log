@@ -1,0 +1,1251 @@
+2022-05-30 10:12:08,269 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 6552 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:12:08,300 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:12:09,144 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:12:09,144 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:12:09,160 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:12:09,160 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:12:09,222 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:12:09,222 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 890 ms
+2022-05-30 10:12:09,597 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:12:09,691 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:12:09,847 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:12:09,863 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:12:09,972 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:12:09,972 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:12:09,988 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:12:09,988 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:12:09,988 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.172 seconds (JVM running for 2.886)
+2022-05-30 10:12:10,081 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:12:14,432 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1652494376,1653813284,1653827898,1653832616; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0NDAwNTEsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4MzUyNTE5OTN9.LujJ_UaCOp0kClFOTMTUylhMlK8yscyvRoxTcBHiqMCQ034AVW0Aao5yyilnh8mGMnq5RGoqKHtL9IqFFxgf1g] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:12:14,443 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:12:14,444 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:12:14,466 INFO (FrameworkServlet.java:546)- Completed initialization in 22 ms
+2022-05-30 10:12:19,468 ERROR (CommonExceptionHandler.java:35)- Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:12:56,977 ERROR (CommonExceptionHandler.java:35)- Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:13:01,594 ERROR (CommonExceptionHandler.java:35)- Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:13:14,969 ERROR (CommonExceptionHandler.java:35)- Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:14:51,805 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 12620 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:14:51,805 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:14:52,587 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:14:52,602 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:14:52,602 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:14:52,602 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:14:52,665 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:14:52,665 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 797 ms
+2022-05-30 10:14:52,982 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:14:53,060 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:14:53,185 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:14:53,216 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:14:53,325 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:14:53,325 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:14:53,341 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:14:53,341 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:14:53,341 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.911 seconds (JVM running for 2.683)
+2022-05-30 10:14:53,419 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:15:17,808 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13216 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:15:17,808 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:15:18,636 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:15:18,636 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:15:18,636 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:15:18,636 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:15:18,698 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:15:18,698 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 828 ms
+2022-05-30 10:15:19,011 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:15:19,089 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:15:19,230 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:15:19,245 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:15:19,355 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:15:19,355 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:15:19,370 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:15:19,370 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:15:19,370 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.937 seconds (JVM running for 2.659)
+2022-05-30 10:15:19,433 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:15:40,644 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=36209ed3637a417ea39134a34f4bc23a; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653813284,1653827898,1653832616,1653876735; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653876735; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODE1OTQsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4NzY3OTQ5Njl9.7GpWuZRSDpv4LfsHQCQ1Hfy5k8zn8FCikQRhOYiFV34VFOggbEUp1EZI37ELM48VsOOTz8ve3M_C8tktZBEXVg] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:15:40,648 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:15:40,648 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:15:40,654 INFO (FrameworkServlet.java:546)- Completed initialization in 6 ms
+2022-05-30 10:16:02,040 ERROR (CommonExceptionHandler.java:35)- Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:16:58,442 ERROR (CommonExceptionHandler.java:35)- Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:18:14,933 ERROR (TemplateEngine.java:1136)- [THYMELEAF][http-nio-8080-exec-8] Exception processing template "author/author_income_detail": Error resolving template [author/author_income_detail], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [author/author_income_detail], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:18:14,935 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [author/author_income_detail], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [author/author_income_detail], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:18:27,774 ERROR (CommonExceptionHandler.java:35)- Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:25:53,217 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 7448 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:25:53,217 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:25:54,085 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:25:54,085 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:25:54,085 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:25:54,085 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:25:54,163 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:25:54,163 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 883 ms
+2022-05-30 10:25:54,460 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:25:54,554 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:25:54,679 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:25:54,695 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:25:54,804 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:25:54,804 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:25:54,820 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:25:54,820 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:25:54,820 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.962 seconds (JVM running for 2.555)
+2022-05-30 10:25:54,898 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:26:00,728 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=36209ed3637a417ea39134a34f4bc23a; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653813284,1653827898,1653832616,1653876735; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653876958; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODE5MDcsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4NzcxMDc3NzN9.MVn-SPRpGBTmBlDENztehdaZIQqeKJ8aRGtULUKsazeTVP41TB6QjTC5j65lmNXEwUb9byZYlRSEHtLe8D92nA] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:26:00,732 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:26:00,733 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:26:00,739 INFO (FrameworkServlet.java:546)- Completed initialization in 6 ms
+2022-05-30 10:26:04,138 ERROR (CommonExceptionHandler.java:35)- Request method 'GET' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1232)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1015)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:27:15,830 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 6352 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:27:15,830 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:27:16,596 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:27:16,611 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:27:16,611 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:27:16,611 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:27:16,674 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:27:16,674 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 782 ms
+2022-05-30 10:27:17,002 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:27:17,096 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:27:17,236 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:27:17,252 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:27:17,361 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:27:17,361 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:27:17,377 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:27:17,377 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:27:17,377 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.906 seconds (JVM running for 2.611)
+2022-05-30 10:27:17,439 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:27:48,803 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 2744 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:27:48,803 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:27:49,538 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:27:49,553 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:27:49,553 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:27:49,553 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:27:49,616 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:27:49,616 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 750 ms
+2022-05-30 10:27:49,944 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:27:50,038 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:27:50,163 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:27:50,194 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:27:50,288 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:27:50,288 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:27:50,303 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:27:50,303 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:27:50,319 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.906 seconds (JVM running for 2.829)
+2022-05-30 10:27:50,385 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:27:57,661 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=36209ed3637a417ea39134a34f4bc23a; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653813284,1653827898,1653832616,1653876735; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653877561; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODIzNjQsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4Nzc1NjQxMzR9.AagAs-kOBtOXPg-7x97nqNbTn8ARGeHzyNZXlcvBBhDr1t1-lT9zcl1HVJ5GLSB36zNXDx1KB1bnKOwJOWZVpg] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:27:57,666 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:27:57,667 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:27:57,671 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-05-30 10:28:39,770 ERROR (CommonExceptionHandler.java:35)- Index: 0, Size: 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.novel.service.impl.BookServiceImpl.queryBookContent(BookServiceImpl.java:299)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy92.queryBookContent(Unknown Source)
+	at com.novel.controller.BookController.queryBookIndexAbout(BookController.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:32:41,285 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 2664 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:32:41,285 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:32:42,082 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:32:42,082 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:32:42,097 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:32:42,097 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:32:42,160 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:32:42,160 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 844 ms
+2022-05-30 10:32:42,488 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:32:42,582 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:32:42,711 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:32:42,742 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:32:42,867 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:32:42,867 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:32:42,883 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:32:42,883 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:32:42,883 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.989 seconds (JVM running for 2.599)
+2022-05-30 10:32:42,961 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:40:46,782 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9844 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:40:46,814 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:40:47,573 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:40:47,573 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:40:47,573 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:40:47,573 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:40:47,651 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:40:47,651 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 806 ms
+2022-05-30 10:40:47,948 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:40:48,042 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:40:48,167 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:40:48,198 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:40:48,292 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:40:48,292 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:40:48,307 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:40:48,307 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:40:48,307 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.915 seconds (JVM running for 2.548)
+2022-05-30 10:40:48,370 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:40:52,198 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=36209ed3637a417ea39134a34f4bc23a; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653813284,1653827898,1653832616,1653876735; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODI1MTksInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4Nzc3MTk3NTl9.LgzscRFAHSaHiynzvPzfZYeN3Un1tuYhyeV0SjlpIaW2U9y_1DdRGIzKD54qQtBHigoLRgIMR1dcoFzlCvH3RQ; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653877720] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:40:52,202 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:40:52,202 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:40:52,208 INFO (FrameworkServlet.java:546)- Completed initialization in 6 ms
+2022-05-30 10:40:55,989 ERROR (CommonExceptionHandler.java:35)- Index: 0, Size: 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.novel.service.impl.BookServiceImpl.queryBookContent(BookServiceImpl.java:299)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy92.queryBookContent(Unknown Source)
+	at com.novel.controller.BookController.queryBookIndexAbout(BookController.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:41:11,728 ERROR (CommonExceptionHandler.java:35)- Index: 0, Size: 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.novel.service.impl.BookServiceImpl.queryBookContent(BookServiceImpl.java:299)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy92.queryBookContent(Unknown Source)
+	at com.novel.controller.BookController.queryBookIndexAbout(BookController.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 10:42:34,912 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 5568 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:42:34,912 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:42:35,693 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:42:35,709 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:42:35,709 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:42:35,709 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:42:35,772 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:42:35,772 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 797 ms
+2022-05-30 10:42:36,084 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:42:36,162 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:42:36,303 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:42:36,318 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:42:36,428 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:42:36,428 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:42:36,443 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:42:36,443 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:42:36,443 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.89 seconds (JVM running for 2.431)
+2022-05-30 10:42:36,506 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:44:17,981 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 8432 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:44:17,981 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:44:18,794 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:44:18,809 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:44:18,809 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:44:18,809 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:44:18,872 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:44:18,872 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 813 ms
+2022-05-30 10:44:19,184 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:44:19,294 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:44:19,419 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:44:19,434 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:44:19,559 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:44:19,559 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:44:19,575 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:44:19,575 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:44:19,575 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.937 seconds (JVM running for 2.483)
+2022-05-30 10:44:19,637 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:44:29,215 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653813284,1653827898,1653832616,1653876735; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODMzMDUsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4Nzg1MDUxMjd9.sm46mDAeMb0it4f8JAU-Yk18iGvH4cYi5liWiFlxLJKEBmtCOMtEZBsroQhgMgFjgE970Y3rnglOHRnBCTIYIQ] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:44:29,220 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:44:29,221 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:44:29,226 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-05-30 10:46:42,696 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 2740 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:46:42,696 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:46:43,493 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:46:43,509 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:46:43,509 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:46:43,509 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:46:43,571 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:46:43,571 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 812 ms
+2022-05-30 10:46:43,899 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:46:43,978 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:46:44,103 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:46:44,134 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:46:44,259 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:46:44,259 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:46:44,259 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:46:44,274 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:46:44,274 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.937 seconds (JVM running for 2.474)
+2022-05-30 10:46:44,337 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:46:47,951 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653878696; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODM0OTYsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4Nzg2OTYwOTd9.a7V7LpTvYO3f3cR61Sdy-i9eJMTnaK5kQjXy1o-_CFpDi9ud4CB82VG_lHg0VaqcrV5pEZEIZEGhKC5gJxNmUw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:46:47,956 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:46:47,957 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:46:47,962 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-05-30 10:47:19,138 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 5328 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:47:19,140 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:47:19,918 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:47:19,925 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:47:19,929 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:47:19,930 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:47:19,995 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:47:19,996 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 801 ms
+2022-05-30 10:47:20,315 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:47:20,404 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:47:20,532 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:47:20,558 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:47:20,658 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:47:20,660 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:47:20,671 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:47:20,675 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:47:20,677 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.884 seconds (JVM running for 2.461)
+2022-05-30 10:47:20,751 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:47:39,995 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653878808; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODM2MDgsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4Nzg4MDg4NDl9.zzItQvOyTS73eNv2pzDkSkybK4WrKZpyphrsq9x3XnhTKrF4lic4RQcbwccu-Cx5dMqupdUrdDbCU1zpeNrBwg] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:47:39,999 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:47:39,999 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:47:40,003 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-05-30 10:48:09,134 ERROR (CommonExceptionHandler.java:25)- 作者状态异常，暂不能管理小说！
+com.novel.core.exception.BusinessException: 作者状态异常，暂不能管理小说！
+2022-05-30 10:48:28,923 ERROR (CommonExceptionHandler.java:25)- 作者状态异常，暂不能管理小说！
+com.novel.core.exception.BusinessException: 作者状态异常，暂不能管理小说！
+2022-05-30 10:49:11,535 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 5940 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 10:49:11,563 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 10:49:12,323 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 10:49:12,329 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:49:12,334 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 10:49:12,335 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 10:49:12,395 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 10:49:12,395 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 800 ms
+2022-05-30 10:49:12,705 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 10:49:12,796 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 10:49:12,926 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 10:49:12,952 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 10:49:13,055 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 10:49:13,056 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 10:49:13,068 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 10:49:13,072 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 10:49:13,074 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.899 seconds (JVM running for 2.488)
+2022-05-30 10:49:13,154 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 10:49:17,424 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653878898; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODM3MTIsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwifSIsImNyZWF0ZWQiOjE2NTM4Nzg5MTIxODR9.xyisZHjaGObblqeXQqVg6BRdmHZrLoojg4KEZKYoQAf2g-qu591OwLoNdGGxPcfO2ibqvX9KIgpt1psgffqfag] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 10:49:17,429 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 10:49:17,429 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 10:49:17,437 INFO (FrameworkServlet.java:546)- Completed initialization in 7 ms
+2022-05-30 10:59:13,056 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:01:20,656 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 4956 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 11:01:20,658 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 11:01:21,463 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 11:01:21,471 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:01:21,476 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 11:01:21,476 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 11:01:21,538 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 11:01:21,539 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 818 ms
+2022-05-30 11:01:21,856 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 11:01:21,944 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 11:01:22,077 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 11:01:22,106 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 11:01:22,224 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:01:22,226 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:01:22,238 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 11:01:22,241 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 11:01:22,243 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.936 seconds (JVM running for 2.471)
+2022-05-30 11:01:22,308 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 11:01:26,401 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653879004] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 11:01:26,406 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 11:01:26,407 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 11:01:26,411 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-05-30 11:03:53,106 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 12868 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 11:03:53,108 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 11:03:53,907 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 11:03:53,914 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:03:53,919 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 11:03:53,919 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 11:03:53,982 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 11:03:53,983 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 813 ms
+2022-05-30 11:03:54,298 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 11:03:54,388 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 11:03:54,521 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 11:03:54,554 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 11:03:54,662 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:03:54,663 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:03:54,674 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 11:03:54,678 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 11:03:54,687 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.96 seconds (JVM running for 2.554)
+2022-05-30 11:03:54,746 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 11:03:58,729 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653879689] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 11:03:58,733 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 11:03:58,733 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 11:03:58,739 INFO (FrameworkServlet.java:546)- Completed initialization in 6 ms
+2022-05-30 11:04:55,650 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9504 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 11:04:55,652 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 11:04:56,453 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 11:04:56,461 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:04:56,466 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 11:04:56,467 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 11:04:56,529 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 11:04:56,530 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 811 ms
+2022-05-30 11:04:56,855 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 11:04:56,944 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 11:04:57,074 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 11:04:57,100 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 11:04:57,199 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:04:57,200 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:04:57,212 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 11:04:57,215 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 11:04:57,217 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.936 seconds (JVM running for 2.529)
+2022-05-30 11:04:57,275 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 11:05:01,110 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653879839] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 11:05:01,114 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 11:05:01,114 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 11:05:01,119 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-05-30 11:05:38,867 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 8356 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 11:05:38,869 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 11:05:39,710 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 11:05:39,716 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:05:39,721 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 11:05:39,721 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 11:05:39,784 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 11:05:39,784 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 854 ms
+2022-05-30 11:05:40,108 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 11:05:40,203 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 11:05:40,333 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 11:05:40,360 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 11:05:40,464 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:05:40,465 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:05:40,476 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 11:05:40,479 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 11:05:40,481 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.965 seconds (JVM running for 2.606)
+2022-05-30 11:05:40,545 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 11:06:05,368 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653879912] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 11:06:05,372 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 11:06:05,373 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 11:06:05,378 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-05-30 11:34:00,261 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 5500 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 11:34:00,264 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 11:34:01,121 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 11:34:01,128 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:34:01,133 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 11:34:01,133 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 11:34:01,198 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 11:34:01,198 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 852 ms
+2022-05-30 11:34:01,516 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 11:34:01,602 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 11:34:01,735 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 11:34:01,760 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 11:34:01,869 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:34:01,870 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:34:01,881 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 11:34:01,885 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 11:34:01,887 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.008 seconds (JVM running for 2.557)
+2022-05-30 11:34:01,938 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 11:35:35,364 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653879976] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 11:35:35,368 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 11:35:35,368 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 11:35:35,372 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-05-30 11:35:47,808 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9732 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 11:35:47,810 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 11:35:48,589 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 11:35:48,597 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:35:48,601 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 11:35:48,601 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 11:35:48,667 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 11:35:48,667 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 793 ms
+2022-05-30 11:35:48,997 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 11:35:49,098 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 11:35:49,240 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 11:35:49,269 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 11:35:49,376 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:35:49,377 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:35:49,388 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 11:35:49,392 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 11:35:49,395 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.929 seconds (JVM running for 2.499)
+2022-05-30 11:35:49,454 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 11:35:51,749 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6fc0d6f0c2f742ffa6b73bb9b2fc0b3f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653881736] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 11:35:51,753 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 11:35:51,753 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 11:35:51,758 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-05-30 11:45:49,379 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:49:04,746 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 408 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 11:49:04,770 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 11:49:05,528 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 11:49:05,536 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:49:05,541 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 11:49:05,541 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 11:49:05,605 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 11:49:05,605 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 804 ms
+2022-05-30 11:49:05,916 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 11:49:06,004 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 11:49:06,131 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 11:49:06,159 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 11:49:06,263 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 11:49:06,264 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 11:49:06,276 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 11:49:06,280 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 11:49:06,282 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.887 seconds (JVM running for 2.436)
+2022-05-30 11:49:06,355 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 14:41:42,068 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9600 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 14:41:42,068 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 14:41:42,881 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 14:41:42,896 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 14:41:42,896 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 14:41:42,896 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 14:41:42,959 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 14:41:42,959 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 828 ms
+2022-05-30 14:41:43,302 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 14:41:43,396 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 14:41:43,521 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 14:41:43,552 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 14:41:43,677 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 14:41:43,677 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 14:41:43,693 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 14:41:43,693 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 14:41:43,693 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.984 seconds (JVM running for 2.59)
+2022-05-30 14:41:43,771 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 14:42:01,961 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653827898,1653832616,1653876735,1653878670; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0ODY1ODYsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjUzODgxNzg2NTIwfQ.VdGT7HziUObRuvGxsUFXqXGv5gDD4PrlisTPioRws3vWdvJv95v4Oodd0V9d4kLv9qwGgXOPUNRqz0V07EjsSA] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 14:42:01,967 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 14:42:01,968 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 14:42:01,976 INFO (FrameworkServlet.java:546)- Completed initialization in 8 ms
+2022-05-30 14:45:33,769 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9924 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-05-30 14:45:33,769 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-05-30 14:45:34,550 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-05-30 14:45:34,566 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-30 14:45:34,566 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-30 14:45:34,566 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-05-30 14:45:34,628 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-30 14:45:34,628 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 796 ms
+2022-05-30 14:45:34,972 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-05-30 14:45:35,082 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-05-30 14:45:35,222 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-05-30 14:45:35,253 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-05-30 14:45:35,366 INFO (Network2LocalPicSchedule.java:40)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-05-30 14:45:35,366 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-05-30 14:45:35,366 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-05-30 14:45:35,382 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-30 14:45:35,382 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.988 seconds (JVM running for 2.562)
+2022-05-30 14:45:35,444 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-05-30 14:45:38,097 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=52a7081f81cc4e6fa99afe78de929d73; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653832616,1653876735,1653878670,1653892923; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653892923; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ0OTc3MzQsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjUzODkyOTM0MDMxfQ.tFvzBG_VonmwKM9WnF69ElqUoSwDTV74kmo47072EtWbYzCOMlDT_ZV49jHRUYHYY8itbutKslH40V6jXeR3yA] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-05-30 14:45:38,102 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-30 14:45:38,103 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-05-30 14:45:38,107 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms

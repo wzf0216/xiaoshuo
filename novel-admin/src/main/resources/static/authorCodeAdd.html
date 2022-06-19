@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+
+<head>
+    <meta charset="UTF-8">
+    <title>邀请码添加</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi"/>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./lib/layui/css/layui.css" media="all"/>
+    <script src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/axios.js"></script>
+    <script type="text/javascript" src="./js/vue.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row" id="app">
+        <form action="#">
+<!--            <div class="layui-form-item">-->
+<!--                <label for="ID" class="layui-form-label">-->
+<!--                    <span class="x-red">*</span>ID</label>-->
+<!--                <div class="layui-input-inline">-->
+<!--                    <input v-model="authorCode.id" type="text" name="id" required="" lay-verify="required"-->
+<!--                           autocomplete="off" class="layui-input" readOnly="readonly"></div>-->
+<!--                <div class="layui-form-mid layui-word-aux">-->
+<!--                    <span class="x-red">*</span>邀请码ID-->
+<!--                </div>-->
+<!--            </div>-->
+            <div class="layui-form-item">
+                <label for=" code" class="layui-form-label">
+                    <span class="x-red">*</span>邀请码</label>
+                <div class="layui-input-inline">
+                    <input v-model="authorCode.inviteCode" type="text" name="validityTime" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="validTime" class="layui-form-label">
+                    <span class="x-red">*</span>有效时间</label>
+                <div class="layui-input-inline">
+                    <input v-model="authorCode.validityTime" type="date" name="validityTime" required=""
+                           lay-verify="date" autocomplete="off" class="input"></div>
+                <div class="layui-form-mid layui-word-aux"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="status" class="layui-form-label">
+                    <span class="x-red">*</span>状态</label>
+                <div class="layui-input-inline">
+                    <input v-model="authorCode.isUse" type="text" name="isUse" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input"></div>
+                <div class="layui-form-mid layui-word-aux"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="createTime" class="layui-form-label">
+                    <span class="x-red">*</span>创建时间</label>
+                <div class="layui-input-inline">
+                    <input v-model="authorCode.createTime" type="date" name="createTime" required=""
+                           lay-verify="data" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+                <label for="createUserId" class="layui-form-label">
+                    <span class="x-red">*</span>创建人ID</label>
+                <div class="layui-input-inline">
+                    <input v-model="authorCode.createUserId" type="text" name="createUserId" required=""
+                           lay-verify="number" autocomplete="off" class="layui-input"></div>
+            </div>
+            <div class="layui-form-item">
+
+                <button class="layui-btn" @click="add()">增加</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    const app= new Vue({
+        el: '#app',
+        data: {
+            authorCode:{
+                id: '',
+                workDirection: '',
+                name: '',
+                sort: '',
+                createTime: '',
+                createUserId: sessionStorage.getItem("sysuserid"),
+                isUse:0
+
+            }
+
+
+        },
+        methods: {
+            add: function () {
+
+                axios.post("/authorCode/save", app.authorCode
+                )
+                    .then(function (response) {
+                        if (response.data.code==200){
+                            alert("添加成功")
+                        }else {
+                            alert("添加失败")
+                        }
+
+                    })
+            }
+        }
+    })
+</script>
+
+
+</body>
+
+</html>

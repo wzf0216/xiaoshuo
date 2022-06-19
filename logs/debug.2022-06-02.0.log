@@ -1,0 +1,935 @@
+2022-06-02 09:50:53,544 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 7952 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 09:50:53,560 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 09:50:54,544 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 09:50:54,560 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 09:50:54,560 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 09:50:54,560 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 09:50:54,638 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 09:50:54,638 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 1031 ms
+2022-06-02 09:50:55,075 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 09:50:55,185 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 09:50:55,341 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 09:50:55,372 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 09:50:55,497 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 09:50:55,497 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 09:50:55,513 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 09:50:55,513 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 09:50:55,528 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.484 seconds (JVM running for 3.235)
+2022-06-02 09:50:55,638 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 09:51:04,421 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1653892923,1654002432,1654044470,1654074175; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3MDMzMDgsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MDk4NTA4ODEyfQ.qzhafLQGfudZUnCBXMR-GORAhFoPcJskMkeXeSqTALaOdzs1I-Ji8Vw4Oc-w1tsE-9dmbrqhVgLhJGCUqvBbMw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 09:51:04,426 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 09:51:04,427 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 09:51:04,435 INFO (FrameworkServlet.java:546)- Completed initialization in 8 ms
+2022-06-02 10:00:55,521 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:10:55,508 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:12:05,932 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 2652 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 10:12:05,932 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 10:12:06,760 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 10:12:06,776 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:12:06,776 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 10:12:06,776 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 10:12:06,838 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 10:12:06,838 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 843 ms
+2022-06-02 10:12:07,198 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 10:12:07,291 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 10:12:07,448 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 10:12:07,479 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 10:12:07,588 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:12:07,588 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:12:07,604 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 10:12:07,604 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 10:12:07,604 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.109 seconds (JVM running for 2.823)
+2022-06-02 10:12:07,666 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 10:12:10,295 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6de803ae5640417981cef8f88a2b412b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654002432,1654044470,1654074175,1654134665; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3Mzk1MjgsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTM0NzI4MTc2fQ.lSetrNqzQEiRPwvdb1Dj_WMCeA57NCevQFQq0RA743qnnJpAZMWaup3cosRUCIGXvT6l7otrpwiNoRMjWSMhUQ; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654134728] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 10:12:10,300 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 10:12:10,300 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 10:12:10,305 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 10:12:38,560 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 10848 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 10:12:38,575 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 10:12:39,372 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 10:12:39,388 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:12:39,388 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 10:12:39,388 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 10:12:39,450 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 10:12:39,450 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 843 ms
+2022-06-02 10:12:39,791 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 10:12:39,885 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 10:12:40,041 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 10:12:40,057 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 10:12:40,166 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:12:40,182 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:12:40,182 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 10:12:40,182 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 10:12:40,197 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.043 seconds (JVM running for 2.791)
+2022-06-02 10:12:40,260 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 10:12:50,950 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6de803ae5640417981cef8f88a2b412b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654002432,1654044470,1654074175,1654134665; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3NDA3NDEsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTM1OTQxNzQ5fQ.D6viCN6EhahGHG8EwKaNDeEqRBe3-n8Ybq6CQfzziZElIZGtXk8K-2vp5UhexwUGl0xmMAaWNuebwsPHnLx8pA; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654135942] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 10:12:50,954 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 10:12:50,954 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 10:12:50,959 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 10:13:47,922 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13948 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 10:13:47,922 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 10:13:48,781 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 10:13:48,781 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:13:48,797 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 10:13:48,797 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 10:13:48,859 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 10:13:48,859 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 875 ms
+2022-06-02 10:13:49,172 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 10:13:49,265 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 10:13:49,406 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 10:13:49,437 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 10:13:49,531 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:13:49,531 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:13:49,546 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 10:13:49,546 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 10:13:49,546 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.999 seconds (JVM running for 2.682)
+2022-06-02 10:13:49,609 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 10:13:51,852 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6de803ae5640417981cef8f88a2b412b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654002432,1654044470,1654074175,1654134665; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654135972; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3NDA3NzEsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTM1OTcxNjkzfQ.QlfFykeLeVE2DhMRWSRPPZkehCBB9HI-NDZl31tzcmqA9Fd9ZNpazGepkMw0OjYFRuGTNr2jct-fxP6i1Y13Wg] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 10:13:51,855 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 10:13:51,856 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 10:13:51,862 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 10:14:59,588 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13200 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 10:14:59,588 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 10:15:00,432 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 10:15:00,447 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:15:00,447 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 10:15:00,447 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 10:15:00,525 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 10:15:00,525 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 875 ms
+2022-06-02 10:15:00,874 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 10:15:00,968 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 10:15:01,124 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 10:15:01,140 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 10:15:01,265 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:15:01,265 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:15:01,281 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 10:15:01,281 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 10:15:01,281 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.084 seconds (JVM running for 2.74)
+2022-06-02 10:15:01,343 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 10:15:07,185 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6de803ae5640417981cef8f88a2b412b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654002432,1654044470,1654074175,1654134665; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3NDA4NDAsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTM2MDQwNjUxfQ.L1ZJJ7UKn0pV8r_-uK5RR8Ng9VieUyWQ62wnSM11O3A1cLgpxpdNYASX4Gi1-PCQhQGaTJaCrDsDZgOBV5jQsA; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654136041] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 10:15:07,189 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 10:15:07,190 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 10:15:07,195 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 10:17:06,473 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 2420 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 10:17:06,475 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 10:17:07,301 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 10:17:07,309 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:17:07,313 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 10:17:07,314 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 10:17:07,380 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 10:17:07,380 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 844 ms
+2022-06-02 10:17:07,715 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 10:17:07,803 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 10:17:07,947 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 10:17:07,973 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 10:17:08,083 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:17:08,084 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:17:08,096 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 10:17:08,099 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 10:17:08,102 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.03 seconds (JVM running for 2.727)
+2022-06-02 10:17:08,158 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 10:17:10,451 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6de803ae5640417981cef8f88a2b412b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654002432,1654044470,1654074175,1654134665; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3NDEwMjEsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTM2MjIxMDM4fQ.HavUEDpHEnE54UGwzP14l6HrhprcCE6LUdhVvK3sIyzMOB9dryWj_71qM4Uv6TUvUzpRBaA2nV5PHO_aNGVUkw; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654136221] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 10:17:10,455 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 10:17:10,455 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 10:17:10,459 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 10:19:47,521 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 6668 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 10:19:47,523 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 10:19:48,320 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 10:19:48,328 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:19:48,333 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 10:19:48,334 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 10:19:48,401 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 10:19:48,402 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 824 ms
+2022-06-02 10:19:48,720 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 10:19:48,817 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 10:19:48,958 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 10:19:48,984 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 10:19:49,082 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:19:49,083 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 10:19:49,096 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 10:19:49,099 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 10:19:49,101 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.001 seconds (JVM running for 2.702)
+2022-06-02 10:19:49,154 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 10:24:02,117 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=6de803ae5640417981cef8f88a2b412b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654002432,1654044470,1654074175,1654134665; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3NDExMDUsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTM2MzA1NjM4fQ.Gp0MxTs1hMnTwpqGQpf3ev6Ou0e14bW_sE4jrMqVxhSQ1yekWdmSqi307POvo1XDg1sr4H_o5fGM_gVvRMhZcA; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654136306] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 10:24:02,120 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 10:24:02,121 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 10:24:02,124 INFO (FrameworkServlet.java:546)- Completed initialization in 3 ms
+2022-06-02 10:29:49,088 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 10:39:49,097 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 11:14:24,050 WARN (HikariPool.java:766)- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m4s424ms860µs800ns).
+2022-06-02 11:21:23,507 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 11:21:23,510 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 11:21:23,513 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 11:21:23,514 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 16:35:02,079 WARN (HikariPool.java:766)- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h9m7s880ms798µs400ns).
+2022-06-02 20:38:02,305 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 6012 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 20:38:02,305 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 20:38:03,242 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 20:38:03,242 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 20:38:03,242 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 20:38:03,242 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 20:38:03,320 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 20:38:03,320 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 937 ms
+2022-06-02 20:38:03,648 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 20:38:03,742 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 20:38:03,867 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 20:38:03,898 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 20:38:04,023 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 20:38:04,023 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 20:38:04,039 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 20:38:04,054 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 20:38:04,054 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.156 seconds (JVM running for 2.812)
+2022-06-02 20:38:04,117 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:15:02,095 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 8348 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:15:02,111 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:15:03,001 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:15:03,017 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:15:03,017 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:15:03,017 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:15:03,080 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:15:03,080 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 922 ms
+2022-06-02 22:15:03,439 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:15:03,517 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:15:03,658 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:15:03,689 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:15:03,798 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:15:03,798 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:15:03,814 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:15:03,814 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:15:03,814 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.094 seconds (JVM running for 2.79)
+2022-06-02 22:15:03,892 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:16:30,203 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 1760 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:16:30,203 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:16:31,015 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:16:31,015 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:16:31,031 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:16:31,031 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:16:31,094 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:16:31,094 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 828 ms
+2022-06-02 22:16:31,422 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:16:31,500 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:16:31,640 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:16:31,656 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:16:31,765 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:16:31,765 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:16:31,781 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:16:31,781 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:16:31,781 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.922 seconds (JVM running for 2.554)
+2022-06-02 22:16:31,859 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:17:22,175 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654002432,1654044470,1654074175,1654134665; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3NDE0NDQsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTM2NjQ0NTQxfQ.2a_LDu36ku2gcUiT_no974GvbiXja_W9zy_bNehINtH-8eqlEf0WIMQi3fUEllLf2KqwshkQkTDoyzHbVID2rQ] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:17:22,182 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:17:22,182 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:17:22,190 INFO (FrameworkServlet.java:546)- Completed initialization in 7 ms
+2022-06-02 22:17:49,499 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13492 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:17:49,499 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:17:50,319 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:17:50,319 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:17:50,335 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:17:50,335 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:17:50,398 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:17:50,398 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 837 ms
+2022-06-02 22:17:50,712 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:17:50,806 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:17:50,947 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:17:50,978 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:17:51,087 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:17:51,087 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:17:51,103 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:17:51,103 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:17:51,103 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.979 seconds (JVM running for 2.565)
+2022-06-02 22:17:51,181 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:18:00,476 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9f6269782c154e7196400fdb62bd8d74; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654044470,1654074175,1654134665,1654179443; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODQyNTUsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTc5NDU1NzIxfQ.OK5oJn5I6iT5HOcTKXamnVKOrGUb3ZtXCw3UQ3-E31u37J-Eso9lLI5qZZGMszMXHg7lHTWXwxXqzihs2R0Xtw; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654179456] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:18:00,480 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:18:00,480 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:18:00,485 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 22:20:34,733 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13740 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:20:34,749 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:20:35,577 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:20:35,577 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:20:35,593 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:20:35,593 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:20:35,640 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:20:35,640 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 828 ms
+2022-06-02 22:20:35,968 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:20:36,046 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:20:36,171 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:20:36,202 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:20:36,311 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:20:36,311 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:20:36,327 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:20:36,327 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:20:36,327 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.937 seconds (JVM running for 2.536)
+2022-06-02 22:20:36,405 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:20:42,557 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654044470,1654074175,1654134665,1654179443; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODQ0MDMsInN1YiI6IntcImlkXCI6MTUxNzc4NDIzNDY0MjEyNDgwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTc5NjAzMDQ0fQ.RYjPEj20xc3CW_zcsolLEfmOsBhG8GCZQV9omjdJeqErNiG4ZAiZrDavG-43FwMmkYBBFvi_wV3Sh_3Abs2nHA] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:20:42,565 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:20:42,565 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:20:42,570 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 22:20:48,378 INFO (RandomValidateCodeUtil.java:94)- 6142
+2022-06-02 22:20:59,379 INFO (RandomValidateCodeUtil.java:94)- 4006
+2022-06-02 22:29:45,559 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 14660 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:29:45,561 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:29:46,381 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:29:46,389 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:29:46,395 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:29:46,395 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:29:46,460 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:29:46,461 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 838 ms
+2022-06-02 22:29:46,802 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:29:46,889 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:29:47,020 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:29:47,049 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:29:47,152 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:29:47,153 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:29:47,165 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:29:47,169 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:29:47,172 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.969 seconds (JVM running for 2.692)
+2022-06-02 22:29:47,240 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:29:54,726 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=bfabf90b3c194d92a7ef962ec08c5190; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654074175,1654134665,1654179443,1654179643; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654179908] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:29:54,730 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:29:54,730 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:29:54,734 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 22:36:12,704 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9876 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:36:12,706 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:36:13,522 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:36:13,530 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:36:13,534 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:36:13,534 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:36:13,602 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:36:13,602 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 836 ms
+2022-06-02 22:36:13,951 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:36:14,043 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:36:14,176 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:36:14,201 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:36:14,304 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:36:14,306 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:36:14,316 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:36:14,321 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:36:14,324 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.983 seconds (JVM running for 2.532)
+2022-06-02 22:36:14,385 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:36:17,024 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654074175,1654134665,1654179443,1654179643; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODUwMDMsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgwMjAzNzcyfQ.sMFGGOrKJbgMkAoe6CoI2Y7CDWizMrxMvII5_gGNlKsxpwPfosxZPoEdGCLkmP7Uu5omONQUM44h-bTRqY8uKQ] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:36:17,034 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:36:17,035 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:36:17,050 INFO (FrameworkServlet.java:546)- Completed initialization in 15 ms
+2022-06-02 22:39:06,051 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 14192 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:39:06,057 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:39:07,338 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:39:07,355 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:39:07,355 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:39:07,355 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:39:07,446 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:39:07,446 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 1294 ms
+2022-06-02 22:39:07,951 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:39:08,080 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:39:08,261 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:39:08,304 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:39:08,450 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:39:08,450 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:39:08,466 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:39:08,482 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:39:08,484 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 3.308 seconds (JVM running for 4.657)
+2022-06-02 22:39:08,585 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:39:11,478 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654134665,1654179443,1654179643,1654180578; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODUzNzgsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgwNTc4MTc1fQ.8yz5s0-CrSlJXMKyACshHiS3ZVP0_h6-GV11KKv8sWE0IEv61mUpcP8HAO09HOxOfEa7KNYUWgRt-NRpHyCrRQ] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:39:11,486 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:39:11,486 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:39:11,492 INFO (FrameworkServlet.java:546)- Completed initialization in 6 ms
+2022-06-02 22:39:54,831 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13492 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:39:54,831 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:39:55,675 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:39:55,690 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:39:55,690 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:39:55,690 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:39:55,753 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:39:55,753 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 875 ms
+2022-06-02 22:39:56,112 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:39:56,206 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:39:56,347 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:39:56,378 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:39:56,487 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:39:56,487 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:39:56,503 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:39:56,503 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:39:56,503 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.094 seconds (JVM running for 2.736)
+2022-06-02 22:39:56,581 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:40:07,902 INFO (DirectJDKLog.java:173)- A cookie header was received [1654179643,1654180578,1654180752; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODU1NTIsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgwNzUyNzU3fQ.OqdcJItxVbB9KUxWGog9TW4qVGlxpI_56Q2f5DZPwsl6kBSZpbclLviuw7XTD9rnmSo1-1X7tHz-RYrfVc1Stw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:40:07,907 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:40:07,908 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:40:07,916 INFO (FrameworkServlet.java:546)- Completed initialization in 8 ms
+2022-06-02 22:42:57,047 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13724 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:42:57,047 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:42:57,875 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:42:57,875 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:42:57,875 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:42:57,875 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:42:57,938 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:42:57,938 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 828 ms
+2022-06-02 22:42:58,250 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:42:58,344 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:42:58,469 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:42:58,500 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:42:58,594 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:42:58,594 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:42:58,610 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:42:58,610 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:42:58,610 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.922 seconds (JVM running for 2.475)
+2022-06-02 22:42:58,672 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:43:04,953 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654179443,1654179643,1654180578,1654180752; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODU1NTIsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgwNzUyNzU3fQ.OqdcJItxVbB9KUxWGog9TW4qVGlxpI_56Q2f5DZPwsl6kBSZpbclLviuw7XTD9rnmSo1-1X7tHz-RYrfVc1Stw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:43:04,963 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:43:04,964 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:43:04,977 INFO (FrameworkServlet.java:546)- Completed initialization in 13 ms
+2022-06-02 22:44:31,716 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 4912 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:44:31,716 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:44:32,559 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:44:32,559 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:44:32,575 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:44:32,575 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:44:32,637 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:44:32,637 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 890 ms
+2022-06-02 22:44:32,981 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:44:33,075 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:44:33,216 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:44:33,247 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:44:33,356 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:44:33,356 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:44:33,372 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:44:33,372 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:44:33,387 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.14 seconds (JVM running for 2.76)
+2022-06-02 22:44:33,434 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:44:36,673 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654179643,1654180578,1654180752,1654180986; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODU4MTUsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgxMDE1ODY4fQ.qnSmRdeXN8nzBM-QZDt6A92uM-HUbYewIMj4_Y_jhLlxlxxkhUC8AgObEFUiMttvPvpNflGRvQRfj_o_-M9QUQ] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:44:36,680 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:44:36,681 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:44:36,699 INFO (FrameworkServlet.java:546)- Completed initialization in 18 ms
+2022-06-02 22:50:59,862 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 2340 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:50:59,862 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:51:00,690 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:51:00,690 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:51:00,706 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:51:00,706 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:51:00,768 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:51:00,768 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 859 ms
+2022-06-02 22:51:01,127 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:51:01,237 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:51:01,362 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:51:01,393 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:51:01,487 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:51:01,487 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:51:01,502 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:51:01,502 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:51:01,502 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.999 seconds (JVM running for 2.585)
+2022-06-02 22:51:01,580 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:51:10,016 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180578,1654180752,1654180986,1654181078; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODU5MTcsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgxMTE3MjIwfQ.PZo7vE1TwUBph8CaEkLm5ryedrdcGKqqvUYwu-TfvSTg4q5g_IYFtYvyDxqPwya6b5t4snJoZD5ex7SPWv3XEQ] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:51:10,024 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:51:10,024 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:51:10,029 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 22:51:14,791 ERROR (TemplateEngine.java:1136)- [THYMELEAF][http-nio-8080-exec-3] Exception processing template "author/author_income_detail": Error resolving template [author/author_income_detail], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [author/author_income_detail], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-02 22:51:14,793 ERROR (DirectJDKLog.java:175)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [author/author_income_detail], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [author/author_income_detail], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.novel.core.filter.NovelFilter.doFilter(NovelFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-02 22:52:44,207 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9140 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:52:44,207 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:52:45,137 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:52:45,137 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:52:45,153 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:52:45,153 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:52:45,247 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:52:45,247 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 977 ms
+2022-06-02 22:52:45,622 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:52:45,731 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:52:45,872 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:52:45,903 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:52:46,012 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:52:46,012 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:52:46,028 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:52:46,028 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:52:46,028 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.258 seconds (JVM running for 2.906)
+2022-06-02 22:52:46,091 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:54:44,472 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9280 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:54:44,472 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:54:45,300 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:54:45,300 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:54:45,300 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:54:45,300 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:54:45,379 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:54:45,379 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 844 ms
+2022-06-02 22:54:45,691 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:54:45,769 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:54:45,910 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:54:45,925 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:54:46,035 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:54:46,035 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:54:46,050 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:54:46,050 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:54:46,050 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.953 seconds (JVM running for 2.596)
+2022-06-02 22:54:46,113 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:54:48,779 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=ff1bd373a6184a5a92be22768682cc6b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180752,1654180986,1654181078,1654181471; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654181471; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODYyNzAsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgxNDcwOTQ5fQ.MNjVw9O_sR2pNKSTvKKkEl1C64xICG15eWNLPycRnQ7nc5klz5eGB3b6crlPP5E86Wp1tm-gog3OgJ6gk4dIQw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:54:48,784 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:54:48,784 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:54:48,788 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 22:56:58,398 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9464 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:56:58,398 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:56:59,192 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:56:59,192 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:56:59,208 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:56:59,208 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:56:59,270 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:56:59,270 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 825 ms
+2022-06-02 22:56:59,583 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:56:59,661 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:56:59,786 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:56:59,817 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:56:59,926 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:56:59,926 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:56:59,942 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:56:59,942 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:56:59,942 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.903 seconds (JVM running for 2.628)
+2022-06-02 22:56:59,989 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:57:02,804 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=ff1bd373a6184a5a92be22768682cc6b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180752,1654180986,1654181078,1654181471; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654181471; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODYyNzAsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgxNDcwOTQ5fQ.MNjVw9O_sR2pNKSTvKKkEl1C64xICG15eWNLPycRnQ7nc5klz5eGB3b6crlPP5E86Wp1tm-gog3OgJ6gk4dIQw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:57:02,808 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:57:02,808 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:57:02,814 INFO (FrameworkServlet.java:546)- Completed initialization in 6 ms
+2022-06-02 22:57:38,143 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 6556 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:57:38,158 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:57:38,986 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:57:38,986 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:57:38,986 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:57:38,986 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:57:39,065 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:57:39,065 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 860 ms
+2022-06-02 22:57:39,408 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:57:39,502 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:57:39,627 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:57:39,658 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:57:39,768 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:57:39,768 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:57:39,768 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:57:39,783 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:57:39,783 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.046 seconds (JVM running for 2.699)
+2022-06-02 22:57:39,864 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:57:42,260 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=ff1bd373a6184a5a92be22768682cc6b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180752,1654180986,1654181078,1654181471; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654181471; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODYyNzAsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgxNDcwOTQ5fQ.MNjVw9O_sR2pNKSTvKKkEl1C64xICG15eWNLPycRnQ7nc5klz5eGB3b6crlPP5E86Wp1tm-gog3OgJ6gk4dIQw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:57:42,264 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:57:42,265 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:57:42,271 INFO (FrameworkServlet.java:546)- Completed initialization in 6 ms
+2022-06-02 22:58:04,966 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 548 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:58:04,997 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:58:05,793 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:58:05,808 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:58:05,808 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:58:05,808 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:58:05,871 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:58:05,871 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 843 ms
+2022-06-02 22:58:06,214 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:58:06,308 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:58:06,464 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:58:06,480 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:58:06,589 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:58:06,589 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:58:06,605 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:58:06,605 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:58:06,605 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 2.045 seconds (JVM running for 2.692)
+2022-06-02 22:58:06,683 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:58:09,439 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=ff1bd373a6184a5a92be22768682cc6b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180752,1654180986,1654181078,1654181471; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654181471; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODYyNzAsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgxNDcwOTQ5fQ.MNjVw9O_sR2pNKSTvKKkEl1C64xICG15eWNLPycRnQ7nc5klz5eGB3b6crlPP5E86Wp1tm-gog3OgJ6gk4dIQw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:58:09,443 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:58:09,443 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:58:09,447 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 22:59:24,364 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 11424 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 22:59:24,396 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 22:59:25,158 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 22:59:25,158 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:59:25,158 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 22:59:25,158 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 22:59:25,220 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 22:59:25,220 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 793 ms
+2022-06-02 22:59:25,548 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 22:59:25,662 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 22:59:25,792 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 22:59:25,823 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 22:59:25,948 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 22:59:25,948 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 22:59:25,964 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 22:59:25,964 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 22:59:25,964 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.959 seconds (JVM running for 2.588)
+2022-06-02 22:59:26,042 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 22:59:28,013 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=ff1bd373a6184a5a92be22768682cc6b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180752,1654180986,1654181078,1654181471; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654181471; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODY3MzMsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgxOTMzMzM3fQ.5G4dZjFzF5Rbjsj22WGQCu7XnFKFwscWGvN1lfsNBGgxgJ8Z_wIuVCDZUXLEayDUjZLELUk--KGQzkmsb2n1kg] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 22:59:28,016 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 22:59:28,017 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 22:59:28,022 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 23:05:02,185 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 10920 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:05:02,185 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:05:02,995 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:05:02,995 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:05:03,011 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:05:03,011 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:05:03,074 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:05:03,074 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 826 ms
+2022-06-02 23:05:03,386 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:05:03,495 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:05:03,620 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:05:03,636 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:05:03,730 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:05:03,745 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:05:03,745 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:05:03,761 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:05:03,761 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.92 seconds (JVM running for 2.596)
+2022-06-02 23:05:03,823 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:05:06,957 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=ff1bd373a6184a5a92be22768682cc6b; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180752,1654180986,1654181078,1654181471; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654181471; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODY3NzksInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgxOTc5NzMxfQ.TSf4-C7_Tiz8R-RGxGb5eGctYU29LkNkXdUq6iHOHPSQ0tT8x-cR3LRE9YcLbh-phBmwBzWsGVa9N2qvS-ESvw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:05:06,963 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:05:06,963 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:05:06,968 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 23:15:03,747 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:21:10,275 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 5748 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:21:10,275 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:21:11,010 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:21:11,025 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:21:11,025 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:21:11,025 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:21:11,088 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:21:11,088 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 782 ms
+2022-06-02 23:21:11,400 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:21:11,494 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:21:11,619 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:21:11,634 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:21:11,744 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:21:11,744 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:21:11,759 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:21:11,759 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:21:11,759 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.874 seconds (JVM running for 2.455)
+2022-06-02 23:21:11,837 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:21:15,289 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODc2NTQsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgyODU0Mjc4fQ.QJCt5gkDdtSyVwHbtr6BJjNFv9ae9e6rTcK-K5HuWnDBqUF0AbgXTK-cn-ZKM0jDtBSLwzFkfS_YRVZr5GO6Rg; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654182854] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:21:15,294 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:21:15,295 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:21:15,299 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 23:21:25,119 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9240 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:21:25,119 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:21:25,936 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:21:25,936 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:21:25,936 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:21:25,936 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:21:25,999 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:21:25,999 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 817 ms
+2022-06-02 23:21:26,327 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:21:26,421 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:21:26,561 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:21:26,577 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:21:26,686 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:21:26,686 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:21:26,686 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:21:26,702 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:21:26,702 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.929 seconds (JVM running for 2.628)
+2022-06-02 23:21:26,749 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:22:07,478 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 5476 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:22:07,494 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:22:08,260 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:22:08,260 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:22:08,260 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:22:08,260 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:22:08,322 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:22:08,322 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 797 ms
+2022-06-02 23:22:08,635 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:22:08,728 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:22:08,853 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:22:08,869 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:22:08,978 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:22:08,978 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:22:08,994 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:22:08,994 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:22:08,994 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.875 seconds (JVM running for 2.515)
+2022-06-02 23:22:09,056 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:22:16,250 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODgwNzksInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgzMjc5MTM4fQ.diw5LVoJsudILjq603FjfbVpogFIzoubl-5RFNpyq-R6X327DtyW9wrOLosLp238rkBne32DaJYDF86AgMmQTg; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654183279] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:22:16,254 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:22:16,254 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:22:16,259 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 23:22:35,923 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13116 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:22:35,923 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:22:36,735 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:22:36,751 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:22:36,751 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:22:36,751 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:22:36,814 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:22:36,814 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 829 ms
+2022-06-02 23:22:37,126 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:22:37,220 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:22:37,345 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:22:37,360 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:22:37,470 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:22:37,470 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:22:37,485 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:22:37,485 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:22:37,485 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.906 seconds (JVM running for 2.532)
+2022-06-02 23:22:37,548 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:22:40,825 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654183341] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:22:40,829 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:22:40,829 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:22:40,833 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 23:23:51,478 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 13860 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:23:51,478 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:23:52,244 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:23:52,259 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:23:52,259 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:23:52,259 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:23:52,322 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:23:52,322 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 781 ms
+2022-06-02 23:23:52,634 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:23:52,728 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:23:52,853 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:23:52,869 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:23:52,978 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:23:52,978 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:23:52,994 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:23:52,994 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:23:52,994 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.875 seconds (JVM running for 2.567)
+2022-06-02 23:23:53,056 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:23:58,704 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODgyMTQsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgzNDE0MjM0fQ.bPcoETdM2sRB6xHsSJwQzIbSSPB8KGBiRQeGomCptcaFVl0d1IHMm5EZpuNy-fpcXQ_kFC_EgwZrLQu9UVq91w; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654183414] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:23:58,711 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:23:58,711 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:23:58,715 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 23:25:05,943 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 8664 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:25:05,946 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:25:06,759 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:25:06,766 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:25:06,771 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:25:06,771 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:25:06,838 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:25:06,838 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 829 ms
+2022-06-02 23:25:07,151 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:25:07,240 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:25:07,364 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:25:07,392 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:25:07,500 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:25:07,501 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:25:07,513 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:25:07,517 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:25:07,519 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.97 seconds (JVM running for 2.639)
+2022-06-02 23:25:07,574 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:25:35,360 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654183457; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODgyNTcsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgzNDU3NDY3fQ.nArYB2U0khgk8-zS8N-pE-0LV9jA34VVlYdiE8kMLxiCaZOpDyj5MixSoWw6OxwBACnKA3BW3NskOnCcQTVQrw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:25:35,366 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:25:35,366 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:25:35,371 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 23:26:21,916 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 2344 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:26:21,918 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:26:22,688 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:26:22,695 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:26:22,699 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:26:22,700 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:26:22,766 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:26:22,766 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 790 ms
+2022-06-02 23:26:23,087 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:26:23,174 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:26:23,299 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:26:23,324 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:26:23,427 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:26:23,428 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:26:23,440 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:26:23,442 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:26:23,445 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.884 seconds (JVM running for 2.526)
+2022-06-02 23:26:23,520 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:26:26,626 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODgzNTcsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgzNTU3NDUyfQ.uKLU5GRIzwtlrHe8AhSEXRKonxCjYb8zJFNJG_ML7GZePLNDrt6b56paKfgnPmE4kiTq2RG23E5eYOSN5V-NMw; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654183558] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:26:26,629 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:26:26,630 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:26:26,634 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 23:27:01,479 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 9908 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:27:01,483 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:27:02,251 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:27:02,258 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:27:02,262 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:27:02,263 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:27:02,325 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:27:02,325 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 781 ms
+2022-06-02 23:27:02,629 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:27:02,717 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:27:02,846 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:27:02,871 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:27:02,971 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:27:02,972 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:27:02,984 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:27:02,987 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:27:02,990 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.856 seconds (JVM running for 2.527)
+2022-06-02 23:27:03,066 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:27:16,906 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODgzOTYsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgzNTk2MTg1fQ._EXjgpb-EByU57_LZD9npYVP5cRbUKRpnCMiXGNw0AUtWjuNaKdISETf-DsXnWgEBrFXw2NShlIghjaC5WAFIA; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654183596] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:27:16,913 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:27:16,914 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:27:16,919 INFO (FrameworkServlet.java:546)- Completed initialization in 5 ms
+2022-06-02 23:27:39,469 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 8520 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:27:39,472 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:27:40,243 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:27:40,250 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:27:40,254 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:27:40,254 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:27:40,314 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:27:40,315 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 786 ms
+2022-06-02 23:27:40,629 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:27:40,717 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:27:40,846 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:27:40,873 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:27:40,983 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:27:40,984 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:27:40,997 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:27:41,001 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:27:41,004 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.89 seconds (JVM running for 2.55)
+2022-06-02 23:27:41,080 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:27:47,027 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654183637; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODg0MzcsInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgzNjM3ODQ3fQ.qnC86JURILdQccehEvQ3XiOntdaaS-4ivwoRloRZ3-89-irhkqOwBjs0h6iXTBhYIuYRBXHG0f8HhNnUPdrOPA] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:27:47,031 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:27:47,031 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:27:47,035 INFO (FrameworkServlet.java:546)- Completed initialization in 4 ms
+2022-06-02 23:28:17,745 INFO (StartupInfoLogger.java:50)- Starting NovelFrontApplication on wzf with PID 2588 (E:\IDEA\workapace\novel_plus\novel-front\target\classes started by 31615 in E:\IDEA\workapace\novel_plus)
+2022-06-02 23:28:17,747 INFO (SpringApplication.java:652)- The following profiles are active: alipay,dev,common-dev,common
+2022-06-02 23:28:18,577 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 8080 (http)
+2022-06-02 23:28:18,585 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:28:18,593 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-06-02 23:28:18,594 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2022-06-02 23:28:18,666 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-06-02 23:28:18,666 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 861 ms
+2022-06-02 23:28:18,984 WARN (CacheConfiguration.java:1795)- Cache: util_cache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+2022-06-02 23:28:19,072 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'taskScheduler'
+2022-06-02 23:28:19,201 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2022-06-02 23:28:19,227 WARN (TemplateMode.java:150)- [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-06-02 23:28:19,331 INFO (Network2LocalPicSchedule.java:44)- Network2LocalPicSchedule。。。。。。。。。。。。
+2022-06-02 23:28:19,332 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2022-06-02 23:28:19,344 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-06-02 23:28:19,347 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-02 23:28:19,349 INFO (StartupInfoLogger.java:59)- Started NovelFrontApplication in 1.969 seconds (JVM running for 2.534)
+2022-06-02 23:28:19,426 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-06-02 23:28:21,386 INFO (DirectJDKLog.java:173)- A cookie header was received [1650811499,1650854213,1650942317; userClientMarkKey=9d68f35e04af4cbbbf2794510a18105f; Hm_lvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654180986,1654181078,1654181471,1654182458; Authorization=eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NTQ3ODg0NjksInN1YiI6IntcImlkXCI6MTUzMjM2NjcyNTA4NDQ2NzIwMCxcInVzZXJuYW1lXCI6XCIxNTE3NTAxMzIxMVwiLFwic3RhdHVzXCI6MH0iLCJjcmVhdGVkIjoxNjU0MTgzNjY5NTI2fQ.-PW_jlLaYsiurQHrA5bXqimsfr00CNm8zSDHu5GkpwDePFJWJXA7ALUmz3X8q0BKoqFBn-qdF7EWnZE97T-2kw; Hm_lpvt_ecc8b50a3122e6d5e09be7a9e5383e07=1654183670] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-06-02 23:28:21,391 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-02 23:28:21,391 INFO (FrameworkServlet.java:524)- Initializing Servlet 'dispatcherServlet'
+2022-06-02 23:28:21,398 INFO (FrameworkServlet.java:546)- Completed initialization in 7 ms
